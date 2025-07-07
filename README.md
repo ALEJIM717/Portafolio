@@ -1,6 +1,6 @@
 # Portafolio
 ## Portada
-📝 Nombre del proyecto:
+Nombre del proyecto:
 Portafolio 
 Estudiante : Rodriguez Hernández Alexa Isabel
 Verano programación web 2025
