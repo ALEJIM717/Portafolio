@@ -1,0 +1,111 @@
+:root {
+    --rosa-principal: #ff9bb3;
+    --rosa-claro: #ffd6e0;
+    --rosa-oscuro: #e75480;
+    --gris-oscuro: #3a3a3a;
+    --blanco: #ffffff;
+}
+body {
+    font-family: 'Poppins', sans-serif;
+    color: var(--gris-oscuro);
+    background-color: #fff9fa;
+}
+h1, h2, h3, h4 {
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+}
+.navbar {
+    background-color: var(--blanco) !important;
+    box-shadow: 0 2px 15px rgba(0, 0, 0, 0.05);
+}
+.hero-section {
+    background: linear-gradient(135deg, var(--blanco) 0%, var(--rosa-claro) 100%);
+    min-height: 100vh;
+}
+.profile-img {
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+    border: 8px solid var(--blanco);
+    box-shadow: 0 15px 30px rgba(231, 84, 128, 0.2);
+    transition: all 0.3s;
+}
+.profile-img:hover {
+    transform: scale(1.05);
+}
+.btn-rosa {
+    background-color: var(--rosa-principal);
+    color: var(--blanco);
+    border: none;
+    border-radius: 30px;
+    padding: 12px 30px;
+    font-weight: 600;
+    transition: all 0.3s;
+}
+.btn-rosa:hover {
+    background-color: var(--rosa-oscuro);
+    transform: translateY(-3px);
+    box-shadow: 0 10px 20px rgba(231, 84, 128, 0.3);
+}
+.section-title {
+    position: relative;
+    display: inline-block;
+    margin-bottom: 40px;
+}
+.section-title::after {
+    content: '';
+    position: absolute;
+    bottom: -15px;
+    left: 0;
+    width: 50%;
+    height: 3px;
+    background: linear-gradient(to right, var(--rosa-principal), var(--rosa-oscuro));
+}
+.card-portafolio {
+    border: none;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.05);
+    transition: all 0.3s;
+    height: 100%;
+}
+.card-portafolio:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 15px 30px rgba(231, 84, 128, 0.2);
+}
+.skill-badge {
+    background-color: var(--rosa-claro);
+    color: var(--rosa-oscuro);
+    padding: 8px 15px;
+    border-radius: 20px;
+    font-weight: 600;
+    margin: 5px;
+    display: inline-block;
+}
+.contact-card {
+    background-color: var(--blanco);
+    border-radius: 15px;
+    padding: 30px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
+}
+.social-icon {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: var(--rosa-claro);
+    color: var(--rosa-oscuro);
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 10px;
+    transition: all 0.3s;
+    font-size: 1.2rem;
+}
+.social-icon:hover {
+    background-color: var(--rosa-principal);
+    color: var(--blanco);
+    transform: translateY(-5px);
+}
+.progress-bar-rosa {
+    background-color: var(--rosa-principal);
+}
